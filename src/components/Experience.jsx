@@ -13,20 +13,23 @@ const Experience = () => {
     <div className="tl">
 
       <div className="tl-row rev">
-        <div className="tl-node live"></div>
+        <div className="tl-node"></div>
         <div className="tl-box gc">
           <div className="tl-hd">
             <div>
-              <span className="current-pill"><span className="live-dot" style={{ width: '6px', height: '6px', display: 'inline-block', borderRadius: '50%', background: '#10B981', animation: 'liveBlink 1.4s infinite', marginRight: '4px' }}></span> Current</span>
+              <span className="current-pill" style={{ background: 'rgba(99,102,241,0.15)', border: '1px solid rgba(99,102,241,0.4)', color: '#818cf8' }}>
+                <span style={{ width: '6px', height: '6px', display: 'inline-block', borderRadius: '50%', background: '#818cf8', marginRight: '4px' }}></span>
+                Completed
+              </span>
               <h3>Business Analyst Intern</h3>
               <h4><i className="fas fa-building"></i> Evamp Technologies</h4>
             </div>
-            <span className="tl-date"><i className="far fa-calendar-alt"></i> 2026 – Present</span>
+            <span className="tl-date"><i className="far fa-calendar-alt"></i> 2026 – July 2026</span>
           </div>
           <ul className="tl-pts">
-            <li>Conducting market research and business analysis to support strategic decision-making across product and operations teams.</li>
-            <li>Building data-driven reports and dashboards to track key performance indicators and business health metrics.</li>
-            <li>Collaborating with cross-functional teams to translate complex business requirements into clear analytical frameworks and solutions.</li>
+            <li>Conducted market research and business analysis to support strategic decision-making across product and operations teams.</li>
+            <li>Built data-driven reports and dashboards to track key performance indicators and business health metrics.</li>
+            <li>Collaborated with cross-functional teams to translate complex business requirements into clear analytical frameworks and solutions.</li>
           </ul>
           <div className="tl-tags"><span>Business Analysis</span><span>Data Reporting</span><span>KPI Dashboards</span><span>Strategy</span><span>Market Research</span></div>
         </div>
